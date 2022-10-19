@@ -199,6 +199,10 @@ Add to scripts
 
 npm run deploy
 
+run heroku create --remote production
+
+Use git add, git commit, and git push production main
+
 
 
 
