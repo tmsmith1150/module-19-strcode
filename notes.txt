@@ -186,6 +186,11 @@ git init
 create repo
 git remote add origin git@github.com:tmsmith1150/module-19-strcode.git
 
+configure the application for a production deployment by changing the webpack mode setting to “production” in client/webpack.config.js
+Within the package.json file inside of the client folder, change the build script to say webpack --mode production instead of webpack --mode develop.
+Remove the “Heroku-prebuild” script in the package.json file within the root folder
+
+
 npm install -D gh-pages
 "homepage": "http://<username>.github.io/photo-port",
 Add to scripts
