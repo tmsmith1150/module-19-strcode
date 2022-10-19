@@ -180,9 +180,19 @@ Run npm install and npm run build in the client directory.
 Inspect the generated service worker file in the build directory.
 
 
+***DEPLOY****
+
 git init
 create repo
 git remote add origin git@github.com:tmsmith1150/module-19-strcode.git
+
+npm install -D gh-pages
+"homepage": "http://<username>.github.io/photo-port",
+Add to scripts
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build
+
+npm run deploy
 
 
 
